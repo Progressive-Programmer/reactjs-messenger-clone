@@ -26,7 +26,7 @@
   /* bottom: 0; */
   /* margin: 20px; */
   left: 50%;
-  bottom: 20px;
+  bottom: 10px;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: 50%;
@@ -71,6 +71,16 @@
   font-family: 'Hind', sans-serif;
   
 }
+
+
+@media only screen and (max-width: 950px) {
+
+  .app__formWrapper {
+    width: 70%;
+  }
+
+}
+
 
 
 @media only screen and (max-width: 600px) {

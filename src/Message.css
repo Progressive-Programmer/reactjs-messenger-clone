@@ -35,6 +35,17 @@
 }
 
 
+
+@media only screen and (max-width: 950px) {
+
+    .message {
+        max-width: 300px;
+    }
+  
+  }
+    
+
+
 @media only screen and (max-width: 600px) {
     
     
