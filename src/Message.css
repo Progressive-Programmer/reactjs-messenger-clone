@@ -1,0 +1,39 @@
+.message {
+    
+    margin: 20px;
+    width: fit-content;
+    
+    
+}
+
+.message__user {
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+.message__userText {
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.message__userCard {
+    background-color: #0b81ff !important;
+    color: white !important;
+    
+}
+
+.message__guestCard {
+    
+    background-color: #e9e9eb !important;
+    word-wrap: break-word !important;
+}
+
+
+.MuiTypography-root {
+    word-wrap: break-word !important;
+
+}
+@media only screen and (max-width: 600px) {
+
+}
