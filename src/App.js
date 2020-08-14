@@ -58,15 +58,18 @@ function App() {
       <img src={logo} />
       <div id="app__title" >Messenger App</div>
       <div id="app__subTitle">Welcome {username} </div>
+      
       <div className="app__formWrapper">
-      <form className="app__form" >
-      <FormControl className="app__formControl" borderRadius="50%" >
-        <Input className="app__input" placeholder="Enter a message..." value={input} onChange={ event => setInput(event.target.value) }  /> 
-        <IconButton className="app__iconButton" disabled={!input} variant="contained" color="primary"  type="submit" onClick= {sendMessage} >
-        <SendIcon />
-        </IconButton>        
-      </FormControl>
-      </form>
+        <form className="app__form" >
+          
+          <FormControl className="app__formControl" >
+            <Input className="app__input" placeholder="Enter a message..." value={input} onChange={ event => setInput(event.target.value) }  /> 
+            <IconButton className="app__iconButton" disabled={!input} variant="contained" color="primary"  type="submit" onClick= {sendMessage} >
+            <SendIcon />
+            </IconButton>        
+          </FormControl>
+
+        </form>
       </div>
       {/* messages */}
      

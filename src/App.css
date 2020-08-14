@@ -65,9 +65,45 @@
   
 }
 
-.app__subTitle {
+#app__subTitle {
   margin-top: 0;
   margin-bottom: 60px;
   font-family: 'Hind', sans-serif;
   
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .app__messageView {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  
+  .app__formWrapper {
+    width: 80%;
+    
+  }
+
+  .app__form {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .app__formControl {
+    background-color: white;
+    border-radius: 60px;
+    justify-content: space-around;
+    
+  }
+  
+  .app__input {
+    flex: 0.8;
+    margin-left: 30px;
+  }
+
+
+   
 }

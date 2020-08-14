@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 .message {
     
     margin: 20px;
-    width: fit-content;
-    
-    
+    width: fit-content;    
 }
 
 .message__user {
@@ -20,6 +21,8 @@
 .message__userCard {
     background-color: #0b81ff !important;
     color: white !important;
+    font-size: 14px;
+    
     
 }
 
@@ -27,13 +30,60 @@
     
     background-color: #e9e9eb !important;
     word-wrap: break-word !important;
+    font-size: 14px;
+    
 }
 
 
-.MuiTypography-root {
-    word-wrap: break-word !important;
-
-}
 @media only screen and (max-width: 600px) {
+    
+    
+    .message {
+        max-width: 300px;
 
+    }
+
+    .message__userText {
+        font-size: 10px ;
+        color: darkgray;
+    }
+
+    .message__userCard .MuiTypography-root{
+       font-size: 12px;
+       font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .message__guestCard .MuiTypography-root{
+        
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        
+    }
+    
+    .message__userCard .MuiCardContent-root {
+        padding: 5px !important;
+        padding-left: 10px !important ;
+        padding-right: 10px !important ;
+        margin: 0 !important;
+        
+      }
+    
+      .message__guestCard .MuiCardContent-root {
+        padding: 5px !important;
+        padding-left: 10px !important ;
+        padding-right: 10px !important ;
+        margin: 0 !important;
+      }
+    
+      .message__guestCard {
+        border-radius: 10px !important;
+      }
+
+      .message__userCard {
+        border-radius: 10px !important;
+      }
+
+
+      
 }
